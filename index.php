@@ -7,7 +7,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-cyan-300  " >
+<body class="bg-cyan-300 h-screen">
 <navbar class="fixed inset-x-0 top-0 p-5 bg-white shadow md:flex md:items-center md:justify-between">
   <div class="flex justify-evenly ">
   <a href="index.php"><span class="text-2xl text-red-500 font-[poppins] cursor-pointer"><img class="h-14 mr-2 inline rounded-2xl " src="https://cdn.centraljersey.com/wp-content/uploads/sites/19/2021/10/vote-5676562_1920.jpg">VotIng</span></a>
@@ -21,16 +21,12 @@
     </ul>
 </div>
 </navbar>
-<section>
-<div class="flex img  flex-wrap ">
-<p>Let's vote</p>
-     <p>Make country beautiful , Choose right representative</p>
+<section">
+<div class="flex fixed img  flex-wrap ">
   <img src="https://78.media.tumblr.com/5514169502a2bbd91f03769677878d13/tumblr_owl94kuuAm1vs8k5oo1_1280.gif"
-        class="object-cover  w-full h-full"
+        class="object-cover fixed top-28 w-full h-full"
         alt=""
       />
-     <p>Let's vote</p>
-     <p>Make country beautiful , Choose right representative</p>
 </div>
 </div>
 </section>
